@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/6b77f4eea6.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="topnav" id="myTopnav">
+      <div class="nav_container">
+        <div class="rocket_icon">
+          <i
+            class="fa fa-rocket fa-x5"
+            style="font-size: 24px; color: white"
+            herf="#sec1"
+            id="rocket"
+          ></i>
+        </div>
+        <div class="topnav_a">
+          <a href="#sec2">ABOUT US</a>
+          <a href="#sec3">THE TEAM</a>
+          <a href="#sec4">IMPRESSIONS</a>
+          <a href="#sec5">CONTACT</a>
+          <a href="javascript:void(0);" class="menu" onclick="TopnavFunction()">
+            MENU
+          </a>
+          <a
+            href="javascript:void(0);"
+            class="close"
+            onclick="TopnavFunction()"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 320 512"
+              class="x_mark"
+            >
+              <path
+                d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"
+              />
+            </svg>
+            CLOSE
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="sec1" id="sec1">
+      <div class="container">
+        <div class="hero">
+          <div class="hero_content">
+            <h1>HEY THERE, WE ARE<br />SPACECOWBOYS</h1>
+            <h3>- AN INDEPENDENT SPACE AGENCY -</h3>
+            <button class="hero_button"><a href="#sec2">LEARN MORE</a></button>
+          </div>
+        </div>
+      </div>
+      <div class="sec2" id="sec2">
+        <div class="facts">
+          <div class="facts_text">
+            <h2>A FEW FACTS ABOUT US</h2>
+            <h4>
+              Before you do business with us,<br />you might want to know a
+              little bit more about out company:
+            </h4>
+          </div>
+          <div class="facts_div">
+            <div class="fact_1">
+              <img
+                class="fact_icon"
+                src="template/Module-1-Facts/Fact 1/fact_1_icon.png"
+                alt=""
+              />
+              <h3 class="fact_text">WE ARE COWBOYS</h3>
+              <h5 class="fact_small_text">
+                You might have guessed that from our<br />company name, but the
+                fact is:<br />Yes, we are indeed cowboys. Cowboys<br />who'd
+                like to go to space.<br />Deal with it.
+              </h5>
+            </div>
+            <div class="fact_1">
+              <img
+                class="fact_icon"
+                src="template/Module-1-Facts/Fact 2/fact_2_icon.png"
+                alt=""
+              />
+              <h3 class="fact_text">WE LIKE TO TINKER</h3>
+              <h5 class="fact_small_text">
+                There are a lot of things lying around on<br />a typical Cowboy
+                Ranch. So we started<br />putting them together, and got
+                really<br />good at rocket building
+              </h5>
+            </div>
+            <div class="fact_1">
+              <img
+                class="fact_icon"
+                src="template/Module-1-Facts/Fact 3/fact_3_icon.png"
+                alt=""
+              />
+              <h3 class="fact_text">WE EXPLORE SPACE</h3>
+              <h5 class="fact_small_text">
+                Once we got our first proper rocket,<br />everything went quite
+                fast. And now we<br />are the #1 independent space agency in<br />the
+                world.<br />Who would have guessed?
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sec3" id="sec3">
+        <div class="team_div_div">
+          <div class="team_div">
+            <div class="team_text">
+              <h2>THE TEAM</h2>
+              <h4>
+                Yep, that's us. Six fine fellows, eager to get on the next
+                advanture.<br />Click on the pictures to get some more
+                information!
+              </h4>
+            </div>
+            <div class="team_cards">
+              <div class="container_c">
+                <div class="card_container">
+                  <div class="card">
+                    <div class="front" onclick="flip(event)">
+                      <img
+                        src="template/Module-2-Team/Team-Members/TM_1/cowboy-1 - kópia.jpeg"
+                        alt=""
+                      />
+                      <div class="mem_text">
+                        <h3>DICK<br />HARVEY</h3>
+                        <h5>CAPTAIN</h5>
+                        <h6>AGE: 56<br />MISSIONS: 13</h6>
+                      </div>
+                    </div>
+                    <div class="back">
+                      <h6>DICK'S FAMOUS QUOTE:</h6>
+                      <h4>
+                        „This is a small step for me,<br />
+                        but a big step for, like,<br />a small kid"
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="container_c">
+                <div class="card_container">
+                  <div class="card">
+                    <div class="front" onclick="flip(event)">
+                      <img
+                        src="template/Module-2-Team/Team-Members/TM_2/cowboy-2 - kópia.JPEG"
+                        alt=""
+                      />
+                      <div class="mem_text">
+                        <h3>RICHIE<br />FARHEM</h3>
+                        <h5>ENGINEER</h5>
+                        <h6>AGE: 48<br />MISSIONS: 13</h6>
+                      </div>
+                    </div>
+                    <div class="back">
+                      <h6>RICHIE'S FAMOUS QUOTE:</h6>
+                      <h4>
+                        „This is a small step for me,<br />
+                        but a big step for, like,<br />a small kid"
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="container_c">
+                <div class="card_container">
+                  <div class="card">
+                    <div class="front" onclick="flip(event)">
+                      <img
+                        src="template/Module-2-Team/Team-Members/TM_3/cowboy-3 - kópia.JPEG"
+                        alt=""
+                      />
+                      <div class="mem_text">
+                        <h3>JOHN<br />SIRACHA</h3>
+                        <h5>GUNSLINGER</h5>
+                        <h6>AGE: 47<br />MISSIONS: 13</h6>
+                      </div>
+                    </div>
+                    <div class="back">
+                      <h6>JOHN'S FAMOUS QUOTE:</h6>
+                      <h4>
+                        „This is a small step for me,<br />
+                        but a big step for, like,<br />a small kid"
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="team_cards">
+              <div class="container_c">
+                <div class="card_container">
+                  <div class="card">
+                    <div class="front" onclick="flip(event)">
+                      <img
+                        src="template/Module-2-Team/Team-Members/TM_4/cowboy-4.JPEG"
+                        alt=""
+                      />
+                      <div class="mem_text" style="padding-right: 2.5vw">
+                        <h3>BERT<br />McNAMERA</h3>
+                        <h5>CAPTAIN</h5>
+                        <h6>AGE: 71<br />MISSIONS: 13</h6>
+                      </div>
+                    </div>
+                    <div class="back">
+                      <h6>BERT'S FAMOUS QUOTE:</h6>
+                      <h4>
+                        „This is a small step for me,<br />
+                        but a big step for, like,<br />a small kid"
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="container_c">
+                <div class="card_container" id="flip">
+                  <div class="card">
+                    <div class="front" id="content" onclick="flip(event)">
+                      <img
+                        src="template/Module-2-Team/Team-Members/TM_5/cowboy-5 - kópia.JPEG"
+                        alt=""
+                      />
+                      <div class="mem_text">
+                        <h3>AL<br />SVERINGE</h3>
+                        <h5>CEO</h5>
+                        <h6>AGE: 76<br />MISSIONS: 13</h6>
+                      </div>
+                    </div>
+                    <div class="back">
+                      <h6>AL'S FAMOUS QUOTE:</h6>
+                      <h4>
+                        „We all have a same quote,<br />
+                        beacuse we are a good team."
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mobile_team_div">
+            <div class="team_text">
+              <h2>THE TEAM</h2>
+              <h4>
+                Yep, that's us. Six fine fellows, eager to get on the next
+                advanture.<br />Click on the pictures to get some more
+                information!
+              </h4>
+            </div>
+            <div class="slider">
+              <span id="slide-1"></span>
+              <span id="slide-2"></span>
+              <span id="slide-3"></span>
+              <span id="slide-4"></span>
+              <span id="slide-5"></span>
+              <div class="image-container">
+                <div class="container_c">
+                  <div class="card_container">
+                    <div class="card">
+                      <div class="front" onclick="flip(event)">
+                        <img
+                          src="template/Module-2-Team/Team-Members/TM_1/cowboy-1 - kópia.jpeg"
+                          alt=""
+                        />
+                        <div class="mem_text">
+                          <h3>DICK<br />HARVEY</h3>
+                          <h5>CAPTAIN</h5>
+                          <h6>AGE: 56<br />MISSIONS: 13</h6>
+                        </div>
+                      </div>
+                      <div class="back">
+                        <h6>DICK'S FAMOUS QUOTE:</h6>
+                        <h4>
+                          „This is a small step for me,<br />
+                          but a big step for, like,<br />a small kid"
+                        </h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="container_c">
+                  <div class="card_container">
+                    <div class="card">
+                      <div class="front" onclick="flip(event)">
+                        <img
+                          src="template/Module-2-Team/Team-Members/TM_2/cowboy-2 - kópia.JPEG"
+                          alt=""
+                        />
+                        <div class="mem_text">
+                          <h3>RICHIE<br />FARHEM</h3>
+                          <h5>ENGINEER</h5>
+                          <h6>AGE: 48<br />MISSIONS: 13</h6>
+                        </div>
+                      </div>
+                      <div class="back">
+                        <h6>RICHIE'S FAMOUS QUOTE:</h6>
+                        <h4>
+                          „This is a small step for me,<br />
+                          but a big step for, like,<br />a small kid"
+                        </h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="container_c">
+                  <div class="card_container">
+                    <div class="card">
+                      <div class="front" onclick="flip(event)">
+                        <img
+                          src="template/Module-2-Team/Team-Members/TM_3/cowboy-3 - kópia.JPEG"
+                          alt=""
+                        />
+                        <div class="mem_text">
+                          <h3>JOHN<br />SIRACHA</h3>
+                          <h5>GUNSLINGER</h5>
+                          <h6>AGE: 47<br />MISSIONS: 13</h6>
+                        </div>
+                      </div>
+                      <div class="back">
+                        <h6>JOHN'S FAMOUS QUOTE:</h6>
+                        <h4>
+                          „This is a small step for me,<br />
+                          but a big step for, like,<br />a small kid"
+                        </h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="container_c">
+                  <div class="card_container">
+                    <div class="card">
+                      <div class="front" onclick="flip(event)">
+                        <img
+                          src="template/Module-2-Team/Team-Members/TM_4/cowboy-4.JPEG"
+                          alt=""
+                        />
+                        <div class="mem_text">
+                          <h3>BERT<br />McNAMERA</h3>
+                          <h5>CAPTAIN</h5>
+                          <h6>AGE: 71<br />MISSIONS: 13</h6>
+                        </div>
+                      </div>
+                      <div class="back">
+                        <h6>BERT'S FAMOUS QUOTE:</h6>
+                        <h4>
+                          „This is a small step for me,<br />
+                          but a big step for, like,<br />a small kid"
+                        </h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="container_c">
+                  <div class="card_container" id="flip">
+                    <div class="card">
+                      <div class="front" id="content" onclick="flip(event)">
+                        <img
+                          src="template/Module-2-Team/Team-Members/TM_5/cowboy-5 - kópia.JPEG"
+                          alt=""
+                        />
+                        <div class="mem_text">
+                          <h3>AL<br />SVERINGE</h3>
+                          <h5>CEO</h5>
+                          <h6>AGE: 76<br />MISSIONS: 13</h6>
+                        </div>
+                      </div>
+                      <div class="back">
+                        <h6>AL'S FAMOUS QUOTE:</h6>
+                        <h4>
+                          „We all have a same quote,<br />
+                          beacuse we are a good team."
+                        </h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="buttons">
+              <a href="#slide-1"></a>
+              <a href="#slide-2"></a>
+              <a href="#slide-3"></a>
+              <a href="#slide-4"></a>
+              <a href="#slide-5"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sec4" id="sec4">
+        <div class="galery" id="galery">
+          <div class="galery_text">
+            <h2>LOOK AT ALL THOSE STARS!</h2>
+            <h4>
+              Some impressions from our trips to frickin outer space, enjoy!
+            </h4>
+          </div>
+
+          <div class="row">
+            <div class="column">
+              <img
+                src="template/Module-3-Gallery/Thumbnails/1/1.JPEG"
+                style="width: 100%"
+                onclick="openModal();currentSlide(1)"
+                class="cursor"
+              />
+            </div>
+            <div class="column">
+              <img
+                src="template/Module-3-Gallery/Thumbnails/2/2.JPEG"
+                style="width: 100%"
+                onclick="openModal();currentSlide(2)"
+                class="cursor"
+              />
+            </div>
+            <div class="column">
+              <img
+                src="template/Module-3-Gallery/Thumbnails/3/3.JPEG"
+                style="width: 100%"
+                onclick="openModal();currentSlide(3)"
+                class="cursor"
+              />
+            </div>
+            <div class="column">
+              <img
+                src="template/Module-3-Gallery/Thumbnails/4/4.JPEG"
+                style="width: 100%"
+                onclick="openModal();currentSlide(4)"
+                class="cursor"
+              />
+            </div>
+            <div class="column">
+              <img
+                src="template/Module-3-Gallery/Thumbnails/5/5.JPEG"
+                style="width: 100%"
+                onclick="openModal();currentSlide(5)"
+                class="cursor"
+              />
+            </div>
+            <div class="column">
+              <img
+                src="template/Module-3-Gallery/Thumbnails/6/6.JPEG"
+                style="width: 100%"
+                onclick="openModal();currentSlide(6)"
+                class="cursor"
+              />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="column">
+              <img
+                src="template/Module-3-Gallery/Thumbnails/7/7.JPEG"
+                style="width: 100%"
+                onclick="openModal();currentSlide(7)"
+                class="cursor"
+              />
+            </div>
+            <div class="column">
+              <img
+                src="template/Module-3-Gallery/Thumbnails/8/8.JPEG"
+                style="width: 100%"
+                onclick="openModal();currentSlide(8)"
+                class="cursor"
+              />
+            </div>
+            <div class="column">
+              <img
+                src="template/Module-3-Gallery/Thumbnails/9/9.JPEG"
+                style="width: 100%"
+                onclick="openModal();currentSlide(9)"
+                class="cursor"
+              />
+            </div>
+            <div class="column">
+              <img
+                src="template/Module-3-Gallery/Thumbnails/10/10.JPEG"
+                style="width: 100%"
+                onclick="openModal();currentSlide(10)"
+                class="cursor"
+              />
+            </div>
+            <div class="column">
+              <img
+                src="template/Module-3-Gallery/Thumbnails/11/11.JPEG"
+                style="width: 100%"
+                onclick="openModal();currentSlide(11)"
+                class="cursor"
+              />
+            </div>
+            <div class="column">
+              <img
+                src="template/Module-3-Gallery/Thumbnails/12/12.JPEG"
+                style="width: 100%"
+                onclick="openModal();currentSlide(12)"
+                class="cursor"
+              />
+            </div>
+          </div>
+
+          <div id="myModal" class="modal">
+            <div>
+              <span class="close cursor" onclick="closeModal()">&times;</span>
+            </div>
+            <div class="modal-content">
+              <div class="mySlides">
+                <div class="numbertext"></div>
+                <img
+                  src="template/Module-3-Gallery/Thumbnails/1/1.JPEG"
+                  style="width: 65vw"
+                />
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext"></div>
+                <img
+                  src="template/Module-3-Gallery/Thumbnails/2/2.JPEG"
+                  style="width: 65vw"
+                />
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext"></div>
+                <img
+                  src="template/Module-3-Gallery/Thumbnails/3/3.JPEG"
+                  style="width: 65vw"
+                />
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext"></div>
+                <img
+                  src="template/Module-3-Gallery/Thumbnails/4/4.JPEG"
+                  style="width: 65vw"
+                />
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext"></div>
+                <img
+                  src="template/Module-3-Gallery/Thumbnails/5/5.JPEG"
+                  style="width: 65vw"
+                />
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext"></div>
+                <img
+                  src="template/Module-3-Gallery/Thumbnails/6/6.JPEG"
+                  style="width: 65vw"
+                />
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext"></div>
+                <img
+                  src="template/Module-3-Gallery/Thumbnails/7/7.JPEG"
+                  style="width: 65vw"
+                />
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext"></div>
+                <img
+                  src="template/Module-3-Gallery/Thumbnails/8/8.JPEG"
+                  style="width: 65vw"
+                />
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext"></div>
+                <img
+                  src="template/Module-3-Gallery/Thumbnails/9/9.JPEG"
+                  style="width: 65vw"
+                />
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext"></div>
+                <img
+                  src="template/Module-3-Gallery/Thumbnails/10/10.JPEG"
+                  style="width: 65vw"
+                />
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext"></div>
+                <img
+                  src="template/Module-3-Gallery/Thumbnails/11/11.JPEG"
+                  style="width: 65vw"
+                />
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext"></div>
+                <img
+                  src="template/Module-3-Gallery/Thumbnails/12/12.JPEG"
+                  style="width: 65vw"
+                />
+              </div>
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              <div class="amazing">
+                <h5>Well, this is amazing!</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sec5" id="sec5">
+        <div class="form">
+          <div class="form_text">
+            <h2>SAY HELLO</h2>
+            <h4>
+              Got some question about us? Wanna do business with us?<br />Or do
+              you just want to send us your latest cat-content - there you go:
+            </h4>
+          </div>
+          <div class="form_fields">
+            <div>
+              <form action="action_page.php" class="left_forms">
+                <input type="text" placeholder="First Name" /><br />
+                <input type="text" placeholder="Last Name" /><br />
+                <input type="text" placeholder="E-Mail" />
+              </form>
+            </div>
+            <div>
+              <form action="action_page.php" class="right_forms">
+                <input type="text" placeholder="Your Message" />
+              </form>
+            </div>
+          </div>
+          <div class="form_button">
+            <button class="f_button">SEND THAT MAIL</button>
+          </div>
+        </div>
+      </div>
+      <div class="sec6" id="sec6">
+        <div class="footer">
+          <h6>Copyright © 2015</h6>
+          <div class="logo_footer">
+            <h4>SPACE</h4>
+            <i
+              class="fa fa-rocket fa-x5"
+              style="
+                font-size: 24px;
+                color: rgba(255, 255, 255, 0.55);
+                margin: 0.5vw;
+              "
+              id="footer_rocket"
+            ></i>
+            <h4>COWBOYS</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      function flip(event) {
+        var element = event.currentTarget;
+        if (element.className === "card_1") {
+          if (element.style.transform == "rotateY(180deg)") {
+            element.style.transform = "rotateY(0deg)";
+          } else {
+            element.style.transform = "rotateY(180deg)";
+          }
+        }
+      }
+
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      var hero_nav = document.getElementById("myTopnav");
+      var sticky = hero_nav.offsetTop;
+
+      function scrollFunction() {
+        if (window.pageYOffset >= 1) {
+          hero_nav.classList.add("sticky");
+        } else {
+          hero_nav.classList.remove("sticky");
+        }
+      }
+
+      function TopnavFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else if (x.className === "topnav sticky") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function openModal() {
+        document.getElementById("myModal").style.display = "block";
+      }
+
+      function closeModal() {
+        document.getElementById("myModal").style.display = "none";
+      }
+
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides((slideIndex += n));
+      }
+
+      function currentSlide(n) {
+        showSlides((slideIndex = n));
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var captionText = document.getElementById("caption");
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slides[slideIndex - 1].style.display = "block";
+      }
+    </script>
+  </body>
+</html>
